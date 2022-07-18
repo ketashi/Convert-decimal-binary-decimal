@@ -15,7 +15,7 @@
 
         -convert decimal to binary
                 -input: convert.py -dbinary 14525
-                -ouput: [+] numbers 14525 to convert binary: #ff5733 11100010111101
+                -ouput: [+] numbers 14525 to convert binary: 11100010111101
         -convert multiple decimal to binary
                 -input: convert.py -dbinary 14525.10458
                 -ouput: [+] numbers 14525.10485 to convert binary: 11100010111101.10100011110101
