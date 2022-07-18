@@ -15,7 +15,7 @@
 
         -convert decimal to binary
                 -input: convert.py -dbinary 14525
-                -ouput: [+] numbers 14525 to convert binary: 11100010111101
+                -ouput: [+] numbers 14525 to convert binary: #ff5733 11100010111101
         -convert multiple decimal to binary
                 -input: convert.py -dbinary 14525.10458
                 -ouput: [+] numbers 14525.10485 to convert binary: 11100010111101.10100011110101
@@ -59,9 +59,9 @@
 >HEXADECIMAL TO BINARY
 
         -convert hexadecimal to binary
-                -input: python convert.py -hbinary 38BD:28F5
-                -ouput: #[+] numbers 38BD:28F5 to convert binary: 11100010111101:10100011110101 
+                -input: convert.py -hbinary 38BD:28F5
+                -ouput: [+] numbers 38BD:28F5 to convert binary: 11100010111101:10100011110101 
         -convert multiple hexadecimal to binary
-                -input: python convert.py -hbinary 38BD:28F5
+                -input: convert.py -hbinary 38BD:28F5
                 -ouput: [+] numbers 38BD:28F5 to convert binary: 11100010111101:10100011110101
 
